@@ -1,0 +1,27 @@
+{
+  "name": "ai-email-summarizer-backend",
+  "version": "1.0.0",
+  "type": "module",
+  "private": true,
+  "scripts": {
+    "dev": "tsx watch src/index.ts"
+  },
+  "dependencies": {
+    "@neondatabase/serverless": "^1.0.2",
+    "cors": "^2.8.5",
+    "dotenv": "^17.2.3",
+    "drizzle-orm": "^0.45.1",
+    "express": "^5.2.1",
+    "openai": "^6.16.0",
+    "pg": "^8.17.2"
+  },
+  "devDependencies": {
+    "@types/cors": "^2.8.19",
+    "@types/express": "^5.0.6",
+    "@types/node": "^25.0.9",
+    "@types/pg": "^8.16.0",
+    "drizzle-kit": "^0.31.8",
+    "tsx": "^4.21.0",
+    "typescript": "^5.9.3"
+  }
+}
